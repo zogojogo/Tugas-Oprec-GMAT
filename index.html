@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ground Control Station</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Russo+One&display=swap" rel="stylesheet">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+<header>
+  <h1>GROUND CONTROL STATION
+    <!-- timer -->
+    <div id="time">
+      Waktu : 00:00
+      <script src="timer.js"></script>
+    </div>
+  </h1>
+  
+</header>  
+
+<!-- Pitch,Yaw,Roll -->
+<div id="pyw">
+  <script src="pyw.js"></script>
+</div>
+
+<!--  Bikin jadi 1  baris -->
+<div class="container"> 
+  <!--Altitude-->
+  <div id="alti">
+    <script src="altitude.js"></script>  
+  </div>
+
+  <!--Temperature-->
+  <div id="temp">
+    <script src="temperature.js"></script>
+  </div>
+
+  <!-- Pressure -->
+  <div id="press">
+    <script src="pressure.js"></script>
+  </div>
+</div>
+</body>
+
+</html>
